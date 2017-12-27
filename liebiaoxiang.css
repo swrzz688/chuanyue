@@ -240,7 +240,7 @@
 		border-top: 1px solid #e2e2e2;
 		background-repeat: no-repeat;
 		height:120px;
-		width: 950px;
+		width: 939px;
 		float: right;
 	}
 	.z1{
@@ -250,9 +250,26 @@
 	}
 	.z2{
 		font-size: 12px;
-		color: #777878;
+		
 		margin-top: 16px;
 		margin-bottom: 13px;
+	}
+	.z2 a{
+		color: #777878;
+		text-decoration: none;
+		margin-right: 20px;
+	}
+	.z2 .bubian{
+		color: #000;
+		text-decoration: none;
+	}
+	.z2 a:hover{
+		background-color: #e7ada3;
+		color: #fff;
+	}
+	.zhongyy .bubian:hover{
+		color: #000;
+		background-color: #f0f1f1;
 	}
 	.z3{
 		font-size: 12px;
@@ -263,6 +280,10 @@
 		margin-top: 20px;
 		margin-left: 12px;
 		margin-right: 20px;
+		transition:all .5s;
+	}
+	.zhongy img:hover{
+		transform: scale(1.1);
 	}
 	.zhongyy{
 		margin-top: 20px;

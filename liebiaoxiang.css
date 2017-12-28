@@ -288,8 +288,112 @@
 	.zhongyy{
 		margin-top: 20px;
 		list-style: none;
-
 	}
+	.baiban{
+		background-color: #fff;
+		margin-top: 95px;
+		padding: 44px 59px 45px 49px;
+	}
+	.baibei{
+		width: 991px;
+		border-bottom: 1px solid #f0f1f1;
+	}
+	.baibei h2{
+		color: #333333;
+		font-size: 18px;
+		margin-bottom: 22px;
+	}
+	.baibei li{
+		color: #333333;
+		font-size: 12px;
+		list-style: none;
+		float: left;
+	} 
+	.baibei a{
+		text-decoration: none;
+		margin-right: 11px;
+		color: #c6c6c6;
+	}
+	.baibei a:hover{
+		color: #999;
+		text-decoration: underline;
+	}
+	.baibei .sny{
+		font-size: 12px;
+		float: right;
+		color: #c6c6c6;
+	}
+	.baibei ul .bq{
+		margin-right:12px;
+		color:#333;
+	}
+	.baibei{
+		float: left;
+	}
+	.baiban img{
+		width: 100%;
+		margin-top: 32px;
+	}
+	.leirong{
+		border-bottom: 1px solid #f0f1f1;
+	}
+	.leirong p{
+		font-size: 14px;
+		color: #333;
+	}
+	.leirong .leiju1{
+		margin-top:33px;
+		margin-bottom:38px;
+	}
+	.leirong .leiju2{
+		margin-top:38px; 
+		margin-bottom:38px;
+		line-height: 35px;
+	}
+	.leirong .leiju3{
+		margin-top:38px; 
+		margin-bottom:38px;
+	}
+	 .leirong .leiju4{
+	 	margin-bottom: 45px;
+	 	line-height: 35px;
+	 }
+	 .leixia{
+	 	margin-top: 20px;
+	 }
+	 .leixia .lxf{
+	 	float: right;
+	 }
+	 .leixia a{
+	 	color: #d3d3d3;
+	 	font-size: 12px;
+	 }
+	 .leixia span{
+	 	color: #8c8c8c;
+	 	font-size: 12px;
+	 }
+	 .bj4{
+	 	background-image: url(images/4-1_02.png);
+	 	padding-top: 194px;
+	 }
+	 .bsj{
+	 	width: 200px;
+	 	background-color: #000;
+
+	 }
+	 .bsj li{
+	 	color: #fdf7f6;
+	 	font-size: 14px;
+	 	list-style: none;
+	 	border-bottom: 1px solid #1b1c1e;
+	 	margin-left: 34px;
+	 }
+	 .zhong4 img{
+	 	width: 860px;
+	 }
+
+
+
 
 
 	

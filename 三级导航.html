@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>三级导航</title>
+	<style media="screen">
+      *{margin:0;padding:0;}
+      body{
+        font-size: 12px;
+      }
+      a{text-decoration:none;
+      	color:#fff;
+      }
+      li{
+      	list-style:none;
+      }
+      .tou{
+        height:42px;
+        width:100%;
+        background-color:rgba(0,0,0,.5);
+        position:absolute;
+      }
+      .banxing{
+        width:1000px;
+        margin:0 auto;
+      }
+      .bj{
+        height:180px;
+        background-image:url(images/bilibilibg.png@.webp);
+      }
+      .tb li{
+        float:left;
+        line-height:42px;
+        position:relative;
+      }
+      .tb a{
+        color:#fff;
+        padding:0 10px;
+        display: block;
+      }
+      .tb a:hover{
+        background-color:rgba(255,255,255,.5);
+      }
+      .twonav{
+        width:466px;
+        height:256px;
+        background-color:#fff;
+        position:absolute;
+        display:none;
+      }
+      .tb li:hover .twonav{
+        display:block;
+      }
+      .yxzx{
+        height:256px;
+        position:relative;
+      }
+      .twonav .zuo{
+        width:265px;
+        float:left;
+      }
+      .twonav .tdx img{
+      	width: 60px;
+      	height: 60px;
+      	float: left;
+      	margin-right: 25px;
+        padding-left: 0px;
+      }
+      .twonav .zuo a img{
+        padding: 0px;
+      }
+      .twonav .zuoertu{
+        padding-left: 0px;
+      }
+      .twonav .zuozht img{
+        padding-right: 0px;
+        margin-right: 0px;
+      }
+      .twonav .zuoyitu{
+        width: 265px;
+      }
+      .twonav .you{
+        width:200px;
+        float:right;
+      }
+      .twonav ul{
+      	margin-top:20px;
+      }
+      .twonav li{
+        line-height:32px;
+        padding-left:20px;
+        float:none;
+        position:static;
+      }
+      .twonav li:hover{
+        background-color:#eee;
+      }
+      .twonav .right img{
+        right:-185px;
+        bottom:0;
+        position:absolute;
+        display:none;
+      }
+      .twonav .right li:hover img{
+        display:block;
+    }
+	</style>
+</head>
+<body>
+	
+    <div class="tou">
+      <div class="banxing">
+        <ul class="tb">
+          <li><a href="">主站</a></li>
+          <li><a href="">画友</a></li>
+          <li>
+            <a href="">游戏中心</a>
+            <div class="twonav">
+              <div class="yxzx">
+                <div class="zuo">
+                  <ul>
+					           <a  class="zuoyitu"href=""><img src="images/bilibili-left1.jpg"></a>
+					           <li class="tdx">
+						          <a class="zuoertu"href=""><img src="images/bilibili-left3.jpg"></a>
+						          <a href=""><img src="images/bilibili-left3.jpg"></a>
+						          <a class="zuozht"href=""><img src="images/bilibili-left3.jpg"></a>
+					           </li>
+                  </ul>
+                </div>
+                <div class="you">
+                  <ul>
+                    <li>
+                      决战！平安京
+                      <!-- <img src="images/bilibili11.png" alt=""> -->
+                    </li>
+                    <li>无法触碰的掌心
+                    <!-- <img src="images/bilibili22.png" alt=""></li> -->
+                    <li>东离剑游纪之生死一剑
+                    <!-- <img src="images/bilibili33.png" alt=""></li> -->
+                    <li>梦之祭！
+                    <!-- <img src="images/bilibili44.png" alt=""></li> -->
+                    <li>歌之王子殿下：闪耀之星
+                    <!-- <img src="images/bilibili55.png" alt=""></li> -->
+                    <li>BanG Dream！
+                    <!-- <img src="images/bilibili66.png" alt=""></li> -->
+                    <li>A3!满开剧团
+                    <!-- <img src="images/bilibili77.png" alt=""></li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">直播</a></li>
+          <li><a href="#">会员购</a></li>
+          <li><a href="#">周边</a></li>
+          <li><a href="#">移动端</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bj"></div>
+</body>
+</html>

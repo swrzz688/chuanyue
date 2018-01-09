@@ -17,22 +17,25 @@
 	}
 	.touzuo .kuan{
 		width: 183px;
+		padding-left: 0;
+		padding-right: 0;
+		margin-right: 15px;
 	}
-
 	.touzuo li{
-		height: 48px;
-		line-height:48px;
 		list-style:none;
 		float: left;
-		margin-right:15px;
-		width: 75px;
 		text-align: center;
-		cursor: pointer; 
+		margin-left: 5px;
+		margin-right: 5px; 
 	}	    
 	.touzuo a{
+		display: block;
+		padding:0 7px;
 		font-size: 13px;
 		color:#757575;
+		height: 48px;
 		text-decoration:none;
+		line-height:48px;
 	}
 	.shangyou li{
 		float: left;
@@ -41,7 +44,7 @@
 		margin-left: 18px;
 		padding-top: 3px;
 	}
-	.touzuo li:hover{
+	.touzuo a:hover{
 		background-color: #dd4012;
 	}
 	.touzuo li:hover a{
@@ -72,41 +75,47 @@
 		height: 28px;
 		background-position: 50%;
 		background-repeat: no-repeat;
+		margin-top: 47px;
 	}
 	.heixian{
-
 		background-color:rgba(0,0,0,0.3); #000;
 		height: 28px;
 	}
-	p a{
+	.heixian p a{
 		font-size: 12px;
-		color:#b0948b;
+		color:#e3e3e3;
 		text-decoration: none;
 	}
-	p a:hover{
+	.heixian p a:hover{
 		color:#636363;
 		text-decoration:underline;
 	}
 	span{
-		color:#b0948b;
+		color:#e3e3e3;
 	}
 
 	.fudong{
 		margin-top: 20px;
 		height: 59px;
 	}
-	.fudong p{
+	.fudong p {
 		text-align: center;
 		line-height: 26px;
 		float: left;
 		font-size: 12px;
 		margin-right: 5px;
 		background-color:#ffffff;
-		width: 78px;
 		height: 26px;
 		cursor: pointer;
 	}
-	.fudong p:hover{
+	.fudong a{
+		text-decoration:none;
+		color: #636363;
+		display: block;
+		width: 64px;
+		height: 26px;
+	}
+	.fudong a:hover{
 		background-color: #636363;
 		color: #fff;
 	}
@@ -116,32 +125,33 @@
 	}
 	.zhong{
 		width: 248px;
-		border: 1px solid #999;
+		border: 1px solid #d9d6d6;
 		background-color: #fff;
 		padding: 5px;
-		cursor: pointer;
 		margin-right: 20px;
 		margin-bottom: 33px;
 	}
 	.zhong img{
 		width: 100%;
 	}
+	.zhong a{
+		text-decoration: none;
+	}
 	.zhong h4{
 		font-size: 16px;
 		color: #000000;
-		text-align: center;
-		margin: 15px auto 19px auto;
+		margin: 10px auto 8px 10px;
 		border-bottom: 1px solid #f7f7f7;
-		padding-bottom: 15px;
+		padding-bottom: 10px;
 	}
 	.zhong p{
 		font-size: 12px;
 		color: #939292;
-		text-align: center;
 		padding-bottom: 19px;
+		margin-left: 10px;
 	}
 	.zhong:hover{
-		border: 1px solid #777;
+		border: 1px solid #999;
 	}
 	.zhongfu .zhong{
 		float: left;
@@ -169,6 +179,15 @@
 		line-height: 36px;
 		text-align:center;
 	}
+	.xiaanliu .xiaanlius{
+		background-color:#dd4012;
+		color: #fff; 
+	}
+	.tou .toulise a{
+		background-color:#dd4012;
+		color: #fff;
+	}
+
 	.xiaanliu .dayu{
 		margin-right: 0px;
 	}
@@ -182,6 +201,9 @@
 		width: 100%;
 		margin-top: 41px;
 		font-size: 12px;
+	}
+	.xiakuang a{
+		text-decoration: none;
 	}
 	.zuiyoufu p{
 		float: right;
@@ -198,23 +220,24 @@
 		margin-left: 19px;
 		color: #999999;                                                                                                                                                                                                                                                                                                             
 	}
+	.zuihoushang a:hover{
+		color: #fff;
+		text-decoration: underline;
+	}
 	.zuihou{
 		float: right;
 	}
 	.zuihou a{
 		margin-top: 10px;
 		margin:5px 9px;
-		color: #666;	
+		color: #666;
+		text-decoration: none;	
 	}
 	.zuihou .zuiyoubi{
 		margin-right:0px;
 	}
 	.zuihou span{
 		color: #666;
-	}
-	.zuihou a:hover{
-		color: #666;
-		text-decoration: none;
 	}
 	.shangbianju{
 		margin-top: 32px;
@@ -250,7 +273,7 @@
 	}
 	.z1{
 		font-size: 18px;
-		color: #e7ada3;
+		color: #dd4012;
 
 	}
 	.z2{
@@ -260,7 +283,7 @@
 		margin-bottom: 13px;
 	}
 	.z2 a{
-		color: #777878;
+		color: #999;
 		text-decoration: none;
 		margin-right: 20px;
 	}
@@ -270,7 +293,7 @@
 	}
 	.z3{
 		font-size: 12px;
-		color:#777878;
+		color:#666;
 	}
 	.zhongy img{
 		float: left;
@@ -294,6 +317,7 @@
 	.baibei{
 		width: 991px;
 		border-bottom: 1px solid #f0f1f1;
+		height: 65px;
 	}
 	.baibei h2{
 		color: #333333;
@@ -306,10 +330,13 @@
 		list-style: none;
 		float: left;
 	} 
+	.baibei .baixbj{
+		margin-bottom: 10px;
+	}
 	.baibei a{
 		text-decoration: none;
 		margin-right: 11px;
-		color: #c6c6c6;
+		color: #999;
 	}
 	.baibei a:hover{
 		color: #999;
@@ -318,7 +345,7 @@
 	.baibei .sny{
 		font-size: 12px;
 		float: right;
-		color: #c6c6c6;
+		color: #999;
 	}
 	.baibei ul .bq{
 		margin-right:12px;
@@ -361,17 +388,19 @@
 	 .leixia .lxf{
 	 	float: right;
 	 }
-	 .leixia a{
-	 	color: #d3d3d3;
+	 .leixia span{
+	 	color: #333;
 	 	font-size: 12px;
 	 }
-	 .leixia span{
-	 	color: #8c8c8c;
+	 .leixia a{
+	 	color: #999;
 	 	font-size: 12px;
+	 	text-decoration: none;
 	 }
 	 .bj4{
 	 	background-image: url(images/4-1_02.png);
 	 	padding-top: 194px;
+	 	margin-top: 48px;
 	 }
 	 .bsj{
 	 	width: 200px;
@@ -420,30 +449,39 @@
 		background-position: 50%;
 	 	height: 200px;
 	 	background-repeat: no-repeat;
+	 	margin-top: 48px;
 	 }
 	 .dianzi p{
 	 	float: left;
-	 	font-size: 14px;
-	 	color: #666;
-	 	text-align: center;
 	 	margin-top: 31px;
 	 	width: 182px;
 	 	height: 45px;
 	 	margin-right: 1px;
 	 	background-color:#cdcdcd;
+	 	text-align: center;
+	 }
+	 .dianzi p a{
+	 	font-size: 14px;
+	 	color: #333;
 	 	line-height: 45px;
+	 	text-decoration: none;
+	 	display: block;
+	 	width: 182px;
+	 	height: 45px;
 	 }
 	 .dianzi .wly{
 	 	width: 184px;
 	 	margin-bottom: 50px;
 	 }
-	 .dianzi p:hover{
+	 .dianzi p a:hover{
 	 	background-color: #dd4012;
 	 	color: #fff;
-	 	cursor:pointer;
 	 }
 	 .dianzi .ybb{
 	 	background-color: #dd4012;
+	 }
+	 .dianzi .ybb a{
+	 	color: #fff;
 	 }
 	 .dianzi h1{
 	 	color: #666;
@@ -562,6 +600,7 @@
 	 	background-repeat: no-repeat;
 	 	background-position: 50%;
 		padding-top: 192px;
+		margin-top: 48px;
 	 }
 	 .qiwen{
 	 	border-bottom: 1px solid #dd4012;
@@ -570,23 +609,32 @@
 	 }
 	 .qiwen p{
 	 	float: left;
-	 	font-size: 14px;
-	 	color: #666;
 	 	text-align: center;
 	 	margin-top: 45px;
 	 	width: 103px;
 	 	height: 33px;
 	 	margin-right: 16px;
 	 	background-color:#cdcdcd;
-	 	line-height: 33px;
+	 	
 	 }
-	 .qiwen p:hover{
+	 .qiwen p a{
+	 	font-size: 14px;
+	 	color: #333;
+	 	line-height: 33px;
+	 	display: block;
+	 	width: 103px;
+	 	height: 33px;
+	 	text-decoration: none;
+	 }
+	 .qiwen p a:hover{
 	 	background-color: #dd4012;
 	 	color: #fff;
-	 	cursor:pointer;
 	 }
 	 .qiwen .ybb{
 	 	background-color: #dd4012;
+	 }
+	 .qiwen .ybb a{
+	 	color: #fff;
 	 }
 	 .lwenzi h2{
 	 	margin-top: 40px;
@@ -629,12 +677,20 @@
 	 }
 	 .ywly li{
 	 	font-size:14px; 
-	 	color:#5a5a5a;
+	 	color:#333;
 	 	list-style: none;
 	 }
 	 .ywly{
 	float: left;
-	line-height: 34px;
+	line-height: 28px;
+	height: 500px;
+	 }
+	 .ywly .ywlys{
+	 	margin-bottom: 20px;
+	 }
+	 .ywly .ywlyx{
+	 	margin-top: 40px;
+	 	margin-bottom: 20px;
 	 }
 	 .tf9{
 	 	float: left;
